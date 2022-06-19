@@ -44,9 +44,6 @@ class Countdown extends Component {
         secondsLeft: prevState.secondsLeft - 1,
       }));
     }, ONE_SECOND);
-    // const { valueTimer } = this.props;
-    // const { secondsLeft } = this.state;
-    // valueTimer(secondsLeft);
   }
 
   resetTimer = () => {
@@ -73,13 +70,9 @@ const mapDispatchToProps = (dispatch) => ({
 });
 
 Countdown.propTypes = {
-  // isDisable: PropTypes.bool.isRequired,
   setTimerTrue: PropTypes.bool.isRequired,
   trueTimer: PropTypes.func.isRequired,
   valueTimer: PropTypes.func.isRequired,
 };
-
-// quando a página montar, exibir o timer no estado inicial
-// quando a página atualizar, diminuir 01 segundo da aplicação
 
 export default connect(mapStateToProps, mapDispatchToProps)(Countdown);

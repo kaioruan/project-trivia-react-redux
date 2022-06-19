@@ -73,7 +73,6 @@ class TriviaQuestions extends React.Component {
 
   handleScore = () => {
     const { setScoreValue, valueTimer, setAssertionsValue } = this.props;
-    // console.log(valueTimer);
     const VALUE_TEN = 10;
     const { score } = this.state;
     let VALUE_SCORE = 0;
@@ -116,7 +115,6 @@ class TriviaQuestions extends React.Component {
     const { apiData } = this.props;
     const { category, question, answers, correct, redirect, color,
       errorColor, isDisabled, next } = this.state;
-    const RANDOMIZE_NUMBER = 0.5;
     return (
       <section className={ style.section_game }>
         { apiData
@@ -137,14 +135,6 @@ class TriviaQuestions extends React.Component {
             >
               {answers.map((item, index) => (
                 <button
-                  // style={
-                  //   { width: 300,
-                  //     height: 30,
-                  //     backgroundColor: 'white',
-                  //     borderRadius: 10,
-                  //     marginBottom: 5,
-                  //     fontWeight: 700 }
-                  // }
                   type="button"
                   disabled={ isDisabled }
                   key={ index }
@@ -156,7 +146,7 @@ class TriviaQuestions extends React.Component {
                 >
                   { item }
                 </button>
-              )).sort(() => Math.random() - RANDOMIZE_NUMBER)}
+              ))}
             </div>
             { next !== 0 && (
               <button
