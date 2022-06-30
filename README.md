@@ -29,9 +29,9 @@ Escrever testes para garantir que sua aplicação possua uma boa cobertura de te
 
 ⚠ **Atenção:** ⚠
 
-Para rodar a aplicação é necessário executar um dos comandos abaixo.
+Para rodar a aplicação é necessário executar o comando abaixo.
 
-Modo de produção:
+Instalação de Dependência.
 ```sh
 npm start
 ```
