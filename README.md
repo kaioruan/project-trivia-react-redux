@@ -1,6 +1,6 @@
-# Boas vindas ao repositório do Talker Manager!
+# Boas vindas ao repositório do Projeto Trivia!
 
-Esse projeto foi desenvolvido durante o módulo de BackEnd na Trybe! #vqv 🚀
+Esse projeto foi desenvolvido durante o módulo de FrontEnd na Trybe! #vqv 🚀
 
 Aqui você vai encontrar os detalhes de como foi o desenvolvimento do projeto e quais foram os requisitos obrigatórios para o desenvolvimento.
 
