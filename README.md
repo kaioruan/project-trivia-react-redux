@@ -29,9 +29,11 @@ Escrever testes para garantir que sua aplicação possua uma boa cobertura de te
 
 ⚠ **Atenção:** ⚠
 
-Para rodar a aplicação é necessário executar o comando abaixo.
-
 Instalação de Dependência.
+```sh
+npm install
+```
+Para rodar a aplicação é necessário executar o comando abaixo.
 ```sh
 npm start
 ```
